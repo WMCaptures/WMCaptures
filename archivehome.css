@@ -1,0 +1,77 @@
+/* Written by William Jack, for WM Photography */
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+
+.archivehtml, .archivebody
+{
+    -webkit-text-size-adjust:100%;
+    box-sizing: border-box;
+    font-family: 'Ibarra Real Nova', serif;
+    color: #000000;
+    height: 100%;
+    margin: 0px;
+}
+
+.bg-full-screen
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* INITIAL MENU */
+#load-menu-initial
+{
+    background-image: url(DSC_70301.JPG);
+}
+
+.load-menu-logo
+{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    top: 35%;
+}
+
+/* SCROLL CONTAINER */
+.scroll-container
+{
+    position: absolute;
+    text-align: center;
+    filter: invert(1);
+    width: 0%;
+    left: 50%;
+    top: 96%;
+}
+
+/* MENU CONTAINER */
+.menu-container
+{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 1.5%;
+    margin-left: 2.5%;
+    width: 20px;
+}
+
+.menu-bar-1, .menu-bar-2, .menu-bar-3
+{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 30%;
+    background-color: rgb(230, 230, 230);
+    transition: 0.2s;
+    text-align: center;
+}
+
+.menu-container:hover .menu-bar-2
+{
+    width: 66%;
+}
+
+.menu-container:hover .menu-bar-3
+{
+    width: 33%;
+}
